@@ -14,7 +14,7 @@ int main()
         cin >> vetor[i];
         if (i > 0)
         {
-            if (vetor[i] > vetor[i - 1])
+            if (vetor[i] >= vetor[i - 1])
             {
                 crescente++;
             }else{
